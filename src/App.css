@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+
+header {
+  padding: 2rem;
+  color: white;
+  align-items: center;
+  margin-block-end: 2rem;
+  background-color: #282c34;
+  font-size: calc(10px + 2vmin);
+}
+
+.field {
+  width: 3rem;
+  height: 3rem;
+  color: #555;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.field[readonly] {
+  color: #000;
+}
+
+button {
+  width: 35em;
+  height: 50px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 10px;
+  margin-block-start: 25px;
+  background-color: black;
+}
+
+footer {
+  padding: 2rem;
+  color: white;
+  align-items: center;
+  margin-block-start: 2rem;
+  background-color: #282c34;
+  font-size: calc(10px + 2vmin);
+}
+
+footer p, footer i {
+  font-size: 1.3rem;
+  display: inline-block;
+  margin-inline-start: 10px;
+}
