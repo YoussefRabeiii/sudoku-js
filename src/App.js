@@ -67,6 +67,7 @@ class App extends Component {
           <i className="fa fa-coffee"></i>
           <p>by Youssef Rabei</p>
 
+          <h6>All Rights Reserved © 2020</h6>
           {/* <p>
             &#1; with &#2; and &#3; by Youssef Rabei
           </p> */}
