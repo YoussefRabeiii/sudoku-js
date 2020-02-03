@@ -3,8 +3,9 @@
 }
 
 header {
-  padding: 2rem;
+  width: 100%;
   color: white;
+  padding: 1rem 0;
   align-items: center;
   margin-block-end: 2rem;
   background-color: #282c34;
@@ -35,9 +36,9 @@ button {
 }
 
 footer {
-  padding: 2rem;
   color: white;
   align-items: center;
+  padding-block-end: 1px;
   margin-block-start: 2rem;
   background-color: #282c34;
   font-size: calc(10px + 2vmin);
@@ -47,4 +48,12 @@ footer p, footer i {
   font-size: 1.3rem;
   display: inline-block;
   margin-inline-start: 10px;
+}
+
+@media (max-width: 700px) {
+  .field {
+    width: 2rem;
+    height: 2rem;
+    font-size: 1rem;
+  }
 }
